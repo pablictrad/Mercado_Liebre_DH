@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "description": "proyecto e-commerce",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patricia Bustos",
+  "license": "ISC"
+}
