@@ -18,7 +18,7 @@
                 
           
                 <form class="buscar" action="#" method="GET">
-                    <input  type="search" placeholder="Buscar productos, marcas">
+                    <input  type="search" placeholder="Buscar productos, marcas" name="search">
                     <i class="fa fa-search"></i>
                 </form>
                 <div class="cuotas">                  
@@ -52,23 +52,23 @@
                 <form action="/" method="GET" class="create-account-form">
                     <div class="form-div name-div">
                         <label for="name">Nombre</label>
-                        <input type="text" id="name" name="name" placeholder="Nombre" class="form-input names-input">
+                        <input type="text" id="name" name="name" placeholder="Nombre" class="form-input names-input" required>
                     </div>
                     <div class="form-div name-div">
                         <label for="last-name">Apellido</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Apellido" class="form-input names-input">
+                        <input type="text" id="last-name" name="last-name" placeholder="Apellido" class="form-input names-input" required>
                     </div>
                     <div class="form-div">
                         <label for="username">Usuario</label>
-                        <input type="text" id="username" name="username" placeholder="Nombre de usuari@" class="form-input">
+                        <input type="text" id="username" name="username" placeholder="Nombre de usuari@" class="form-input" required>
                     </div>
                     <div class="form-div">
                         <label for="birthday" >Fecha de nacimiento</label>
-                        <input type="date" id="birthday" name="birthday" class="form-input">
+                        <input type="date" id="birthday" name="birthday" class="form-input" required>
                     </div>
                     <div class="form-div">
                         <label for="home">Domicilio</label>
-                        <input type="text" id="home" name="home" placeholder="Domicilio" class="form-input">
+                        <input type="text" id="home" name="home" placeholder="Domicilio" class="form-input" required>
                     </div>
                     <div class="form-div">
                         <label class="label-title">Perfil de usuario</label>
@@ -110,11 +110,11 @@
                     </div>
                     <div class="form-div">
                         <label for="password" class="label-title">Contraseña</label>
-                        <input type="password" id="password" name="password" class="form-input">
+                        <input type="password" id="password" name="password" class="form-input" required>
                     </div>
                     <div class="form-div">
                         <label for="confirm-password" class="label-title">Confirmar contraseña</label>
-                        <input type="password" id="confirm-password" name="password-confirmed" class="form-input">
+                        <input type="password" id="confirm-password" name="password-confirmed" class="form-input" required>
                     </div>
                     <button type="submit" class="button-form">Enviar</button>
                     <button type="reset" class="button-form">Borrar</button>
